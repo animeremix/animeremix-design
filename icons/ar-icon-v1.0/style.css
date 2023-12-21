@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'ar-icon';
+  src:  url('fonts/ar-icon.eot?40ccbi');
+  src:  url('fonts/ar-icon.eot?40ccbi#iefix') format('embedded-opentype'),
+    url('fonts/ar-icon.ttf?40ccbi') format('truetype'),
+    url('fonts/ar-icon.woff?40ccbi') format('woff'),
+    url('fonts/ar-icon.svg?40ccbi#ar-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ar-"], [class*=" ar-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ar-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ar-synth-saw:before {
+  content: "\e900";
+}
+.ar-synth-sine:before {
+  content: "\e901";
+}
+.ar-synth-square:before {
+  content: "\e902";
+}
+.ar-synth-triangle:before {
+  content: "\e903";
+}
+.ar-piano:before {
+  content: "\e904";
+}
+.ar-electric-guitar:before {
+  content: "\e905";
+}
+.ar-speaker:before {
+  content: "\e906";
+}
+.ar-genre-synthwave:before {
+  content: "\e907";
+}
